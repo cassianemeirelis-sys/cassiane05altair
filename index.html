@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mundo da Música</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1DB954; /* Cor verde estilo streaming */
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h2 {
+            color: #1DB954;
+        }
+        .generos {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            flex: 1 1 calc(33.333% - 15px);
+            min-width: 200px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>A Arte da Música</h1>
+        <p>Conectando pessoas através do som</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>O que é a música?</h2>
+            <p>A música é uma forma de arte que combina sons e silêncio seguindo uma organização ao longo do tempo. Ela tem o poder de expressar emoções, contar histórias e unir culturas ao redor do mundo.</p>
+        </section>
+
+        <section>
+            <h2>Gêneros Populares</h2>
+            <div class="generos">
+                <div class="card">
+                    <h3>Rock</h3>
+                    <p>Conhecido por sua energia, guitarras marcantes e ritmo forte.</p>
+                </div>
+                <div class="card">
+                    <h3>Pop</h3>
+                    <p>Músicas cativantes, feitas para dançar e que fazem sucesso nas rádios.</p>
+                </div>
+                <div class="card">
+                    <h3>Hip-Hop</h3>
+                    <p>Focado em batidas, rimas (rap) e forte expressão cultural e urbana.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado por um amante de música</p>
+    </footer>
+
+</body>
+</html>
